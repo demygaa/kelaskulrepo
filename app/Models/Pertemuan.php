@@ -9,7 +9,7 @@ class Pertemuan extends Model
     protected $fillable = ['kelas_id', 'pertemuan_ke', 'tanggal'];
 
     protected $casts = [
-        'tanggal' => 'date',
+        'tanggal' => 'date:Y-m-d',
     ];
 
     public function kelas()

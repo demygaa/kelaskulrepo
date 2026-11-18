@@ -32,5 +32,8 @@
                 {{ $slot }}
             </main>
         </div>
+
+        <script src="{{ asset('js/api.js') }}"></script>
+        @stack('scripts')
     </body>
 </html>
